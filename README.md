@@ -2,6 +2,10 @@
 
 ## Table of Contents
 
+- Introduction
+- Project Aims
+- Project Outcomes
+- Instructions
 - File Structure
 
 ## Introduction
