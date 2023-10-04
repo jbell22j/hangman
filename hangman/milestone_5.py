@@ -93,8 +93,6 @@ class Hangman:
                 break
 
     def play_hangman_game(self):
-        print("-------------------\nWELCOME TO HANGMAN\n-------------------")
-        print(f"Here is the word you need to guess:\n{self.chosen_word_guessed}\n-------------------")
         '''
         This function is to play the hangman game for a particular instance, checks if a user has lost, won or needs to continue playing.
 
@@ -106,6 +104,8 @@ class Hangman:
         -------
         None
         '''
+        print("-------------------\nWELCOME TO HANGMAN\n-------------------")
+        print(f"Here is the word you need to guess:\n{self.chosen_word_guessed}\n-------------------")
         while True:
             if self.number_of_lives == 0:
                 print("You've lost the game!")
@@ -115,5 +115,5 @@ class Hangman:
                 print("Congratulations, you have won the game!")
                 break
 
-game = Hangman(["Pineapple","Mango","Orange","Coconut","Banana"],5)
-game.play_hangman_game()
+# EXAMPLE - game = Hangman(["Pineapple","Mango","Orange","Coconut","Banana"],5)
+# game.play_hangman_game()
