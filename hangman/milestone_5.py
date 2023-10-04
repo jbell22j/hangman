@@ -58,7 +58,6 @@ class Hangman:
         -------
         None
         '''
-        guess = guess.lower()
         if guess in self.chosen_word:
             print(f"Good guess! {guess} is in the word!")
             self._add_correct_guess_to_list(guess)
@@ -82,7 +81,7 @@ class Hangman:
         None
         '''
         while True:
-            guess = input("Guess a letter: ")
+            guess = input("Guess a letter: ").lower()
             if len(guess) != 1 or guess.isalpha() == False:
                 print("Invalid letter. Please, enter a single alphabetical character.")
             elif guess in self.list_of_guesses:
@@ -94,11 +93,23 @@ class Hangman:
                 break
 
     def play_hangman_game(self):
+        print("-------------------\nWELCOME TO HANGMAN\n-------------------")
+        print(f"Here is the word you need to guess:\n{self.chosen_word_guessed}\n-------------------")
+        '''
+        This function is to play the hangman game for a particular instance, checks if a user has lost, won or needs to continue playing.
+
+        Parameters:
+        -------
+        None
+
+        Returns:
+        -------
+        None
+        '''
         while True:
             if self.number_of_lives == 0:
                 print("You've lost the game!")
             if self.number_of_unguessed_characters > 0:
-                print(self.number_of_unguessed_characters)
                 self.ask_for_input()
             else:
                 print("Congratulations, you have won the game!")
