@@ -1,5 +1,5 @@
 import random
-import string
+
 
 class Hangman:
     
@@ -115,5 +115,8 @@ class Hangman:
                 print("Congratulations, you have won the game!")
                 break
 
-# EXAMPLE - game = Hangman(["Pineapple","Mango","Orange","Coconut","Banana"],5)
-# game.play_hangman_game()
+
+if __name__ == "__main__": 
+    word_list = ["Pineapple","Mango","Orange","Coconut","Banana"]
+    game = Hangman(word_list,5)
+    game.play_hangman_game()

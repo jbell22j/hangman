@@ -18,5 +18,3 @@ if len(guess) == 1 and guess in letters_in_alphabet:
     print("Good guess!")
 else:
     print("Oops! That is not a valid input.")
-
-milestone_3.ask_for_input("g")
