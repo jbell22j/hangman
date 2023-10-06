@@ -5,6 +5,7 @@
 - Introduction
 - Project Aims
 - Project Outcomes
+- Key Tools
 - Instructions
 - File Structure
 
@@ -21,6 +22,10 @@ The projects aim was to create a playable Hangman game using the python techniqu
 ## Project Outcomes
 
 Created a Hangman class using an intialiser to take user input of a list of possible words to use in the game and number of lives in the game. Created four functions that built upon each other to allow a smoothly running game with no bugs arising from any user input for guesses. Using a randomiser, generators, if-else statements and for statements in the successful output of a playable user-friendly hangman game in Python.
+
+## Key Tools
+
+Python, random
 
 ## Instructions
 
