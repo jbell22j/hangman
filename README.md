@@ -30,6 +30,8 @@ Created a Hangman class using an intialiser to take user input of a list of poss
 
 * [Python](https://wiki.python.org/moin/BeginnersGuide/Programmers) is a programming language that lets you work more quickly and integrate your systems more effectively and is used here as the language to create our game within.
 * [random](https://docs.python.org/3/library/random.html) is a module which implements pseudo-random number generators for various distributions and is used in our project to generate a random number to pick the index of a word within our hangman options list.
+<img width="288" alt="image" src="https://github.com/jbell22j/hangman/assets/141024595/5a9eb69e-0b85-4034-9b8e-2ef36094a222">
+
 
 <a id="instructions"></a>
 ## Instructions
