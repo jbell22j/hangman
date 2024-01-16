@@ -6,7 +6,7 @@
 - [Project Aims](#aim)
 - [Project Outcomes](#outcome)
 - [Key Tools](#tools)
-- [Instructions](#instructions)
+- [Game Breakdown](#instructions)
 - [File Structure](#structure)
 
 <a id="intro"></a>
@@ -34,7 +34,7 @@ Created a Hangman class using an intialiser to take user input of a list of poss
 
 
 <a id="instructions"></a>
-## Instructions
+## Game Breakdown
 
 - Create a new instance, for example: mygame = Hangman([],int), inserting a list of words (can be as may or as little you like, fewer words means an easier game) and an integer number of lives.
 
