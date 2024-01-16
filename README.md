@@ -101,8 +101,6 @@ Outside of the `Hangman` class is the method `play_hangman_game` is used to play
 
 Then mygame.play_hangman_game() will start the game and you can start inputting single alphabetical characters to guess the random word the computer has chosen from your list. Any character that is not alphabetical or single will flag an error. The rest is self-explanatory the game will run until you lose or win!
 
-<img width="540" alt="image" src="https://github.com/jbell22j/hangman/assets/141024595/59bcaad8-d89a-4666-a195-761a92f6c042">
-
 <a id="structure"></a>
 ## File Structure
 
