@@ -84,8 +84,6 @@ def ask_for_input(self):
 Outside of the `Hangman` class is the method `play_hangman_game` is used to play the hangman game for a particular instance, checks if a user has lost, won or needs to continue playing.
 ```
     def play_hangman_game(self):
-        '''
-        This function is to play the hangman game for a particular instance, checks if a user has lost, won or needs to continue playing.
 
         print("-------------------\nWELCOME TO HANGMAN\n-------------------")
         print(f"Here is the word you need to guess:\n{self.chosen_word_guessed}\n-------------------")
@@ -96,7 +94,8 @@ Outside of the `Hangman` class is the method `play_hangman_game` is used to play
                 self.ask_for_input()
             else:
                 print("Congratulations, you have won the game!")
-                break ```
+                break
+```
 
 <img width="333" alt="image" src="https://github.com/jbell22j/hangman/assets/141024595/1d427a05-f3a9-4cb8-807d-5742914561f1">
 
