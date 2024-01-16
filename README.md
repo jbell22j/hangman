@@ -37,12 +37,12 @@ Created a Hangman class using an intialiser to take user input of a list of poss
 ## Game Breakdown
 
 Create a new instance, for example: mygame = Hangman([],int), inserting a list of words (can be as may or as little you like, fewer words means an easier game) and an integer number of lives. The `Hangman` class has the following attributes :
-* self.word_list = the user's chosen list of words to choose a random word from.
-* self.number_of_lives = the user's chosen amount of lives allowed in that game.
-* self.chosen_word= the chosen random word from the user's word_list.
-* self.chosen_word_guessed = a list of _ at each index the length of the chosen_word to represent the characters still to be guessed.
-* self.number_of_unguessed_characters = the number of characters in the chosen_word still to be guessed, initially the length of the chosen_word.
-* self.list_of_guesses = initially an empty list, characters users input will be added to the list to keep track of previously guessed characters.
+* `self.word_list` = the user's chosen list of words to choose a random word from.
+* `self.number_of_lives` = the user's chosen amount of lives allowed in that game.
+* `self.chosen_word` = the chosen random word from the user's word_list.
+* `self.chosen_word_guessed` = a list of _ at each index the length of the chosen_word to represent the characters still to be guessed.
+* `self.number_of_unguessed_characters` = the number of characters in the chosen_word still to be guessed, initially the length of the chosen_word.
+* `self.list_of_guesses` = initially an empty list, characters users input will be added to the list to keep track of previously guessed characters.
 
 
 <img width="333" alt="image" src="https://github.com/jbell22j/hangman/assets/141024595/1d427a05-f3a9-4cb8-807d-5742914561f1">
