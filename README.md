@@ -46,23 +46,28 @@ Create a new instance, for example: mygame = Hangman([],int), inserting a list o
 
 The `Hangman` class has the following methods:
 
-```  def _add_correct_guess_to_list(self,guess):
+```
+def _add_correct_guess_to_list(self,guess):
         for i in range(len(self.chosen_word)):
             if self.chosen_word[i] == guess:
                 self.chosen_word_guessed[i] = guess
                 self.number_of_unguessed_characters = self.number_of_unguessed_characters - 1
-        print(f"Here is how your guesses look so far: {self.chosen_word_guessed}")```
+        print(f"Here is how your guesses look so far: {self.chosen_word_guessed}")
+```
 
-```    def check_guess_in_word(self,guess):
+```
+def check_guess_in_word(self,guess):
         if guess in self.chosen_word:
             print(f"Good guess! {guess} is in the word!")
             self._add_correct_guess_to_list(guess)
         else:
             self.number_of_lives = self.number_of_lives - 1
             print(f"Sorry, {guess} is not in the word. Try again!")
-            print(f"You have {self.number_of_lives} lives left.")```
+            print(f"You have {self.number_of_lives} lives left.")
+```
 
-   ``` def ask_for_input(self):
+   ```
+def ask_for_input(self):
         while True:
             guess = input("Guess a letter: ").lower()
             if len(guess) != 1 or guess.isalpha() == False:
@@ -73,7 +78,8 @@ The `Hangman` class has the following methods:
                 self.check_guess_in_word(guess)
                 self.list_of_guesses.append(guess)
                 print(f"Characters you've guessed already: {self.list_of_guesses}")
-                break ```
+                break
+```
 
 Outside of the `Hangman` class is the method `play_hangman_game` is used to play the hangman game for a particular instance, checks if a user has lost, won or needs to continue playing.
 ```
